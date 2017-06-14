@@ -564,7 +564,7 @@ module.exports = function (grunt) {
       'messageformat_interpolation': {
         options: {
           deps: {
-            'default': ['MessageFormat'],
+            'default': ['messageformat'],
             amd: ['messageformat'],
             cjs: ['messageformat'],
             global: ['MessageFormat']
